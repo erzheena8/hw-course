@@ -35,7 +35,16 @@ export type UserDataPropsType = {
     usersData: Array<UsersDataType>
 }
 
-function HW1(props: UserDataPropsType) {
+let usersData:Array<UsersDataType> = [
+    { name: 'i', avatar:'', sender:true, message: 'yo', time:'452'},
+    { name: 'i', avatar:'', sender:false, message: 'yo', time:'452'},
+    { name: 'i', avatar:'', sender:true, message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio fugiat numquam quo. Consectetur cupiditate deserunt dicta eveniet, facere fugiat id inventore nostrum quod sapiente sequi unde, vel voluptas, voluptatem?', time:'452'}
+]
+
+
+
+function HW1() {
+
     return (
         <div>
             <hr/>
@@ -52,7 +61,7 @@ function HW1(props: UserDataPropsType) {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            <AlternativeMessage UserData={props.usersData}/>
+            <AlternativeMessage UserData={usersData}/>
             <hr/>
         </div>
     );

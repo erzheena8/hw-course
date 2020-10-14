@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import GreetingContainer from "./GreetingContainer";
+import {v1} from "uuid";
+import classes from "./HW3.module.css";
 
 // types
 export type UserType = {
@@ -9,15 +11,14 @@ export type UserType = {
 
 // уровень работы с глобальными данными
 function HW3() {
-    const [users, setUsers] = useState<Array<String>>([]); // need to fix any
-
-    const addUserCallback = (name: string) => { // need to fix any
-        setUsers([name]); // need to fix
+    const [users, setUsers] = useState<Array<UserType>>([]);
+    const addUserCallback = (name: string) => {
+        let newUser: UserType = {_id:v1(),name:name}
+        setUsers([newUser, ...users]);
     }
-
     return (
-        <div>
-            <hr/>
+        <div className={classes.hw}>
+            {/*<hr/>*/}
             homeworks 3
 
             {/*should work (должно работать)*/}
@@ -25,10 +26,10 @@ function HW3() {
                 users={users}
                 addUserCallback={addUserCallback}/>
 
-            <hr/>
+            {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeGreeting/>*/}
-            <hr/>
+            {/*<hr/>*/}
         </div>
     );
 }

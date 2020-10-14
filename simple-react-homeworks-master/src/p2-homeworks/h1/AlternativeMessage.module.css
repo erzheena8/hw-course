@@ -24,7 +24,7 @@
 
 .userBlock {
     box-sizing: border-box;
-    min-width: 15vw;
+    min-width: 10vw;
     max-width: 30vw;
     background-color: #696969;
     padding: 1em 1em 1.5em;

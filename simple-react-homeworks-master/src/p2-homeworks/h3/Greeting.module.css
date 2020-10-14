@@ -1,7 +1,19 @@
-.someClass {
-
+.greeting {
+    margin-top: 40px;
+    position: relative;
+    height: 15vh;
 }
 
 .error {
-    border: 1px solid red;
+    border: 1px solid #B03F35;
+}
+
+.errorTitle {
+    color: #B03F35
+}
+
+.total {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
 }
