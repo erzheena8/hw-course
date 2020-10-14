@@ -4,7 +4,7 @@ import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
-    addUserCallback: (name:string)=>void // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -24,7 +24,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const addUser = () => {
         if (name.trim()) {
-        alert(`Hello  ${name}!`);
+            alert(`Hello  ${name}!`);
 
             addUserCallback(name)
             setName('')
