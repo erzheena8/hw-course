@@ -1,12 +1,49 @@
-.superInput {
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
 
+.superInput {
+    padding: 3px;
+    font-size: 16px;
+    width: 15vw;
+    height: 25px;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .4);
+    margin-top: 20px;
+    transition: .2s;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border-bottom: 2px solid rgba(220, 20, 60, .5);
 }
 
 .error {
-    color: red;
+    color: #DC143C;
 }
+
+.superInput:focus {
+    outline: none;
+    border-bottom: 2px solid #4682B4;
+}
+
+.errorInput:hover {
+    border-bottom: 2px solid rgb(220, 20, 60);
+}
+
+.superInput:focus.superInput:hover {
+    border-bottom: 2px solid #4682B4;
+}
+
+.withoutError {
+    display: inline;
+    align-self: self-start;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+}
+

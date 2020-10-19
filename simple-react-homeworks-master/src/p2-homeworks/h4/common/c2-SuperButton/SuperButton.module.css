@@ -1,7 +1,33 @@
 .default {
-
+    background-color: #C0C0C0;
+    color:black;
 }
 
 .red {
-    background: red;
+    background: rgb(178,34,34);
+    color:white;
+}
+
+.button {
+    width: 10vw;
+    height: 25px;
+    border: 0;
+    border-radius: 1em;
+    cursor:pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition:.2s ;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.red:hover {
+    background: rgba(178,34,34,.5);
+    
+}
+
+.default:hover {
+    background-color: #808080;
 }

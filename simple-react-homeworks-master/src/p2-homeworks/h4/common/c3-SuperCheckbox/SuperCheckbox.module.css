@@ -1,6 +1,10 @@
 .checkbox {
-
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: .3s;
 }
+
 
 .spanClassName {
 

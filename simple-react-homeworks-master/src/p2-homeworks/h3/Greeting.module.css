@@ -1,7 +1,8 @@
 .greeting {
-    margin-top: 40px;
     position: relative;
-    height: 15vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
 }
 
 .error {
