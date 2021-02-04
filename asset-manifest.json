@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/erzheena8/training.git/static/css/main.78cb00c7.chunk.css",
+    "main.js": "/erzheena8/training.git/static/js/main.35a4a12f.chunk.js",
+    "main.js.map": "/erzheena8/training.git/static/js/main.35a4a12f.chunk.js.map",
+    "runtime-main.js": "/erzheena8/training.git/static/js/runtime-main.e2c7addb.js",
+    "runtime-main.js.map": "/erzheena8/training.git/static/js/runtime-main.e2c7addb.js.map",
+    "static/js/2.953e6aa8.chunk.js": "/erzheena8/training.git/static/js/2.953e6aa8.chunk.js",
+    "static/js/2.953e6aa8.chunk.js.map": "/erzheena8/training.git/static/js/2.953e6aa8.chunk.js.map",
+    "index.html": "/erzheena8/training.git/index.html",
+    "precache-manifest.3503906ef76dd5abb1fa1b2b8adc3de0.js": "/erzheena8/training.git/precache-manifest.3503906ef76dd5abb1fa1b2b8adc3de0.js",
+    "service-worker.js": "/erzheena8/training.git/service-worker.js",
+    "static/css/main.78cb00c7.chunk.css.map": "/erzheena8/training.git/static/css/main.78cb00c7.chunk.css.map",
+    "static/js/2.953e6aa8.chunk.js.LICENSE.txt": "/erzheena8/training.git/static/js/2.953e6aa8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2c7addb.js",
+    "static/js/2.953e6aa8.chunk.js",
+    "static/css/main.78cb00c7.chunk.css",
+    "static/js/main.35a4a12f.chunk.js"
+  ]
+}
