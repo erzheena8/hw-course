@@ -1,12 +1,13 @@
 import React from "react";
 
-function Header() {
+
+
+function PageTwo() {
     return (
         <div>
-            // add NavLinks
-
+            Page_Two
         </div>
     );
 }
 
-export default Header;
+export default PageTwo;

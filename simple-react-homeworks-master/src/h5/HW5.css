@@ -1,0 +1,25 @@
+.mainPages {
+    display: flex;
+}
+
+.pages {
+    display: flex;
+}
+
+.nav {
+    width: 25%;
+}
+
+.content {
+    width: 75%;
+    margin-left:25%  ;
+}
+
+.contentWithoutHeader {
+    width: 95%;
+    margin-left: 5% ;
+}
+
+.page_one {
+
+}

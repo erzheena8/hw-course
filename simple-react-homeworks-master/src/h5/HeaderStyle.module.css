@@ -1,0 +1,93 @@
+.header {
+    width: 20%;
+    height: 100vh;
+    background-color: #2A8D9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: .3s;
+    top: 0;
+}
+
+
+.activeHeader {
+    transform: translateX(0);
+}
+
+.hiddenHeader {
+    transform: translateX(-100%);
+}
+/*.header a:first-child {*/
+/*    margin-top: 0;*/
+/*}*/
+.nav  {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+.header .activeHeaderLink {
+    color: #FDBDBA;
+}
+
+.menu_wrapper {
+    position: absolute;
+    top: 0;
+    right: -55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #AC7580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hiddenMenu, .hiddenMenu:before, .hiddenMenu:after,
+.activeMenu,.activeMenu:before, .activeMenu:after{
+    border-bottom: 2px solid white;
+    width: 25px;
+}
+.activeMenu:after, .activeMenu:before,
+.hiddenMenu:before, .hiddenMenu:after {
+    position: absolute;
+    content: '';
+    transition: .5s;
+
+}
+
+
+.hiddenMenu, .activeMenu {
+    position: relative;
+}
+.activeMenu {
+    border: 0;
+}
+
+.activeMenu:after {
+    transform: rotate(45deg);
+}
+
+.activeMenu:before {
+    transform: rotate(-45deg);
+}
+
+.hiddenMenu:before {
+    top: 6px;
+}
+.hiddenMenu:after {
+    top: -6px;
+}
